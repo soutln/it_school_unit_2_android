@@ -23,9 +23,7 @@ public class IT_SCHOOL_UNIT_2 extends AppCompatActivity {
     private Button button5;
     private double first;
     private double second;
-
     private static final String RES_KEY = "d1";
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,6 +37,7 @@ public class IT_SCHOOL_UNIT_2 extends AppCompatActivity {
             setContentView(R.layout.activite_landspace);
 
         text = findViewById(R.id.tv);
+
         ed1 = findViewById(R.id.ed1);
         ed2 = findViewById(R.id.ed2);
 
@@ -47,7 +46,6 @@ public class IT_SCHOOL_UNIT_2 extends AppCompatActivity {
         button3 = findViewById(R.id.b3);
         button4 = findViewById(R.id.b4);
         button5 = findViewById(R.id.b5);
-
 
         button1.setOnClickListener(new View.OnClickListener() {
             @Override
